@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-01-05T20:18:57Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "MainBoard"
+        },
+        "Owner": "Luis Llamas <luisllamas@hotmail.com>",
+        "Size": {
+            "X": 80.01,
+            "Y": 99.06
+        }
+    }
+}
