@@ -4,14 +4,19 @@ OpenRobot is an Open Hardware PCB based on Arduino Nano, especially designed for
 
 Once assembled, you can use make multiple projects and robots without welding, just adding or removing components in the dupont headers.
 
-![alt text](https://github.com/luisllamasbinaburo/OpenRobot/blob/master/OpenRobot/Images/OpenRobot-assembly.jpg "Assembly")
+
+![alt text](https://github.com/luisllamasbinaburo/OpenRobot/blob/master/OpenRobot/Images/OpenRobot-schematic.jpg "Assembly")
+
 
 OpenRobot is compatible with a huge number of modules thanks to the multiple outputs. 
 Also, is compatible with several DC Converters, and differents IMUs (MPU6050, MPU9050/9250 and L3GD20)
 
 ## What can I make with OpenRobot?
-
 Almost any Arduino project you can ever imagine! 
+
+![alt text](https://github.com/luisllamasbinaburo/OpenRobot/blob/master/OpenRobot/Images/OpenRobot-assembly.jpg "Assembly")
+
+
 
 Some of them,
 - DC Motors Robot, like obstacle avoider (ultrasonic or Sharp), line follower, self-balancing bot...
@@ -21,6 +26,7 @@ Some of them,
 - WiFi projects (ESP01), like controlling from Web, MQTT datalogger...
 - Temperature, pressure, humidity weather station with BME280
 - Any other project, thanks to the multiple available outputs!
+
 
 ## Connectors
 A lot of connectos availble, so you can customicce OpenRobot to you project requirement
@@ -70,20 +76,41 @@ Powering is one of the most important point in any project. OpenRobot allow a si
 - Posible to by-pass DC Converters and powering through Nano regulators (just in low-power and simple projects)
 - Battery sense (optional)
 
+### DC Converters
+OpenRobot is compatible with two different DC Converters modules.
+
 ![alt text](https://github.com/luisllamasbinaburo/OpenRobot/blob/master/OpenRobot/Images/OpenRobot-dc-converters.jpg "OpenRobot DC Converters")
 
 
+Just assembly in the right position for you DC Converter model.
 ![alt text](https://github.com/luisllamasbinaburo/OpenRobot/blob/master/OpenRobot/Images/OpenRobot-Power.png "OpenRobot Power")
 
 
+### Power selection
+Powering selection to device are make using dupong jumper connections.
+Outputs to:
+- Servo
+- DC Motors
+- Mosfet
+
+Can be connected to:
+- Vregulated
+- 5V
+- Vbatery
+
 ![alt text](https://github.com/luisllamasbinaburo/OpenRobot/blob/master/OpenRobot/Images/OpenRobot-Power-selector.png "OpenRobot Powering")
 
+Aditionally, you can completely by-pass DC converters, and use Arduino regulators for 3V3 and/or 5V PCB rails, thus removing the need of installing DC Converters at all.
+
+Only recommended in case of small / low power projects
 
 ## IMU
+IMU is an important part of most Arduino projects. OpenRobot is compatible with a big number of IMUs, including the most populars. 
+
 ![alt text](https://github.com/luisllamasbinaburo/OpenRobot/blob/master/OpenRobot/Images/OpenRobot-IMUs.jpg "OpenRobot IMUs")
+
+Just put your IMU in the right position. In some IMU modules you make need to use the Vcc optional pin to adapt powering to your IMU pinout.
 
 ![alt text](https://github.com/luisllamasbinaburo/OpenRobot/blob/master/OpenRobot/Images/OpenRobot-IMU.jpg "OpenRobot IMU")
 
 
-
-![alt text](https://github.com/luisllamasbinaburo/OpenRobot/blob/master/OpenRobot/Images/OpenRobot-schematic.jpg "Assembly")
