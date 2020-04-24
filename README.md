@@ -4,19 +4,13 @@ OpenRobot is an Open Hardware PCB based on Arduino Nano, especially designed for
 
 Once assembled, you can use make multiple projects and robots without welding, just adding or removing components in the dupont headers.
 
-
-![alt text](https://github.com/luisllamasbinaburo/OpenRobot/blob/master/OpenRobot/Images/OpenRobot-schematic.jpg "Assembly")
-
+![alt text](https://github.com/luisllamasbinaburo/OpenRobot/blob/master/OpenRobot/Images/OpenRobot-assembly.jpg "Assembly")
 
 OpenRobot is compatible with a huge number of modules thanks to the multiple outputs. 
 Also, is compatible with several DC Converters, and differents IMUs (MPU6050, MPU9050/9250 and L3GD20)
 
 ## What can I make with OpenRobot?
 Almost any Arduino project you can ever imagine! 
-
-![alt text](https://github.com/luisllamasbinaburo/OpenRobot/blob/master/OpenRobot/Images/OpenRobot-assembly.jpg "Assembly")
-
-
 
 Some of them,
 - DC Motors Robot, like obstacle avoider (ultrasonic or Sharp), line follower, self-balancing bot...
@@ -27,10 +21,11 @@ Some of them,
 - Temperature, pressure, humidity weather station with BME280
 - Any other project, thanks to the multiple available outputs!
 
+![alt text](https://github.com/luisllamasbinaburo/OpenRobot/blob/master/OpenRobot/Images/OpenRobot-schematic.jpg "Assembly")
+
 
 ## Connectors
 A lot of connectos availble, so you can customicce OpenRobot to you project requirement
-![alt text](https://github.com/luisllamasbinaburo/OpenRobot/blob/master/OpenRobot/Images/OpenRobot-connectors.png "OpenRobot Connectors")
 
 - 2x DC Motor
 - 2x Encoder
@@ -43,6 +38,8 @@ A lot of connectos availble, so you can customicce OpenRobot to you project requ
 - 3x Mosfet
  
  But, I you wany, can also use any of this output as a GPIO.
+
+![alt text](https://github.com/luisllamasbinaburo/OpenRobot/blob/master/OpenRobot/Images/OpenRobot-connectors.png "OpenRobot Connectors")
 
 ## Pinout
 Of course, not all the components and outputs are available at the same time, due to Arduino Nano pins numbers.
